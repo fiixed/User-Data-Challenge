@@ -21,6 +21,7 @@
 		0575D77619BE159B003BA404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0575D75819BE159B003BA404 /* UIKit.framework */; };
 		0575D77E19BE159C003BA404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0575D77C19BE159C003BA404 /* InfoPlist.strings */; };
 		0575D78019BE159C003BA404 /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0575D77F19BE159C003BA404 /* User_Data_ChallengeTests.m */; };
+		0575D78B19BE1631003BA404 /* FIXUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0575D78A19BE1631003BA404 /* FIXUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0575D77B19BE159C003BA404 /* User Data ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		0575D77D19BE159C003BA404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0575D77F19BE159C003BA404 /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
+		0575D78919BE1631003BA404 /* FIXUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FIXUserData.h; path = ../FIXUserData.h; sourceTree = "<group>"; };
+		0575D78A19BE1631003BA404 /* FIXUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FIXUserData.m; path = ../FIXUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				0575D76619BE159B003BA404 /* Main.storyboard */,
 				0575D76919BE159B003BA404 /* FIXViewController.h */,
 				0575D76A19BE159B003BA404 /* FIXViewController.m */,
+				0575D78C19BF4865003BA404 /* Model */,
 				0575D76C19BE159B003BA404 /* Images.xcassets */,
 				0575D75B19BE159B003BA404 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				0575D77C19BE159C003BA404 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0575D78C19BF4865003BA404 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0575D78919BE1631003BA404 /* FIXUserData.h */,
+				0575D78A19BE1631003BA404 /* FIXUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0575D78B19BE1631003BA404 /* FIXUserData.m in Sources */,
 				0575D76B19BE159B003BA404 /* FIXViewController.m in Sources */,
 				0575D76519BE159B003BA404 /* FIXAppDelegate.m in Sources */,
 				0575D76119BE159B003BA404 /* main.m in Sources */,
